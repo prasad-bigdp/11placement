@@ -1,0 +1,27 @@
+Display Property is used to change the layout of elements. We can change block elements to inline and inline elements into block using display Property
+    display:block --> makes the element as block(new line)
+    display:inline --> makes the element as inline(same line). Inline elements cannot have height or width
+    display:inline-block --> makes the element as inline but also use height and width properties
+    display:none --> makes the element removed from flow
+
+FlexBox:  FlexBox is used to arrange the child items in single direction
+    Parent properties: 
+        display:flex --> arranges child items to default direction(row)
+        flex-direction -->row/column/row-reverse/column-reverse
+        justify-content --> arranges elements in main Axis(flex direction)
+                           left/start/right/end/center/space-arouns/space-evenly/space-between
+        align-items    --> arranges elements in cross Axis(opp . flex 
+                            direction)
+                            start/left/right/end/center
+        flex-wrap      --> wraps the child items and moves them into new
+                            lines  -- nowrap/wrap/wrap-reverse
+        align-content   --> moves the wrapped lines along cross Axis
+                            left/start/right/end/center/space-arouns/space-evenly/space-between
+        gap             --> defines the gap between elements
+    child properties: 
+        order           --> defines the arrangement of items. every item 
+                            by default order zero. elements are arranged in increasing order    
+        align-self      --> moves single element along cross axis
+
+
+

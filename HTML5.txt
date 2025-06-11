@@ -1,0 +1,74 @@
+HTML4 have seral issues such as accessibility, non- semantic coding, security issues and less media resources
+HTML5 brought solutions all drawbacks and brought new features such as :
+  i. media
+  ii. semantic Elements
+  iii. canvas
+  iv. svg etc..,
+
+i. media : HTML5 brought lot of media accessibilityusing tags like 
+   video,audio,iframe and picture
+
+   video: videos can be inserted into HTML webpage using video element and its path can be accessed by source elements 'src' attribute
+
+   <video height="200" controls  muted>
+        <source src="path">
+    </video>
+   
+   audio: audios can be inserted into HTML webpage using audio element and its path can be accessed by source elements 'src' attribute
+  
+   <audio height="200" controls  muted>
+        <source src="path">
+    </audio>
+  'controls' allows control elements like play,pause etc..,
+  'autoplay' allows media to play automatically when page loads
+  'muted' allows media to play without audio
+
+    Iframe : Iframe is a container that is used to display any embedded media with attributes like src
+     <iframe src="path to embed media" height="200" frameborder="0"></iframe>
+
+   Picture: Picture element is used to display responsive images
+   picture element contain images using source element and srcset attribute
+    --> Each source tag should have media defines width and it should be in decreasing order
+    --> img tag should be at the end of picture element
+     <picture>
+        <source media="(min-width:1024px)" srcset="path">
+        <source media="(min-width:576px)" srcset="path">
+        <img src="path" alt="shinchan" height="200">
+    </picture>
+
+  Semantic Coding: HTML5 brought meaningful elements to make the code more understandble and better at SEO. These elements are called semantic elements.
+  for eg:
+     // HTML 4 code
+     <div>
+         <a>Home</a>
+         <a>About</a>
+         <a>Contact</a>
+     </div>
+     //HTML5 code
+     <header>
+         <a>Home</a>
+         <a>About</a>
+         <a>Contact</a>
+     </header>
+
+popular semantic elements are header , footer, section, article , main, aside, nav, figure 
+
+<figure>
+        <img src="./css-grid-poster.png" alt="grid post" height="200">
+        <figcaption>GRID POSTER</figcaption>
+    </figure>
+
+All semantic elements are block except nav
+
+
+3. canvas: canvas is a frame where javascript can draw 2d or 3d diagrams
+
+4. svg (scalable vector graphics): svg is used to create nice drawings with different shapes.
+  eg: circle, rect, path
+  
+
+
+
+
+
+

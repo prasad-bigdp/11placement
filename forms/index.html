@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms- Project</title>
+</head>
+<body>
+    <h1>Simple Registration Form</h1>
+  <fieldset>
+    <legend>Registration Form</legend>
+    <form action="main.java" method="post">
+        <div>
+         <input type="text" placeholder="Enter name" value="hitler" name="na" required minlength="6" maxlength="10" readonly/>
+        </div><br>
+        <div>
+         <input type="email" placeholder="Enter Email" name="em" pattern="[A-Za-z0-9.-]{1,}+@[A-Za-z]{2,}+\.[A-za-z]{2,}">
+        </div><br>
+        <div>
+         <input type="password" placeholder="Enter password" name="pwd">
+        </div><br>
+        <div>
+         <input type="number" name="age" placeholder="Enter age" min="18" max="25" disabled>
+        </div><br>
+        <div>
+         <label for="dob">Select Date of Birth</label>
+         <input type="date" id="dob">
+        </div>   <br>
+        <div>
+         <label for="dt">select available time</label>
+         <input type="datetime-local" id="dt">
+        </div> <br>
+        <div>
+         <label for="clr">choose color</label>
+         <input type="color" name="clr" id="clr">
+        </div>    <br>
+        <div>
+         <label for="res">upload Resume</label>
+         <input type="file" name="res" id="res" accept=".png">
+        </div><br>
+        <div>
+         <input type="hidden" name="name" value="value">
+        </div><br>
+        <div>
+         <label for="">Choose the gender:</label>
+         <input type="radio" value="male" id="m" name="gender" checked>
+         <label for="m">Male</label>
+         <input type="radio" value="female" id="f" name="gender">
+         <label for="f">Female</label>
+        </div>
+        <div>
+         <label for="">choose the language: </label>
+         <input type="checkbox" name="lang" id="eng" value="eng">
+         <label for="eng">English</label>
+         <input type="checkbox" name="lang" id="tel" value="tel">
+         <label for="tel">Telugu</label>
+         <input type="checkbox" name="lang" id="hin" value="hin">
+         <label for="hin">Hindi</label>
+         
+        </div><br>
+        <div>
+          <label for="">Select the Course</label>
+          <select name="course" id="course" >
+             <optgroup label="UI">
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+             </optgroup>
+            <optgroup label="programming">
+                <option value="js">JS</option>
+               <option value="java">JAVA</option>
+               <option value="python">Python</option>
+               <option value="">C#</option>
+            </optgroup>
+          </select>
+        </div>
+        <textarea name="address" cols="30" rows="10" ></textarea>
+         <button>Submit</button>
+     </form>
+  </fieldset>
+</body>
+</html>

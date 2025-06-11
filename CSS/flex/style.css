@@ -1,0 +1,25 @@
+ #main{
+    height: 50vh;
+    width: 50vw;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap;
+    align-content: space-between; 
+    gap: 20px;*/
+}
+.child{
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    margin: 5px;
+    color: white;
+}
+.child2
+{
+    align-self: start;
+    order: 5;
+    /*visibility: hidden;*/
+}

@@ -1,0 +1,71 @@
+Colors: Colors represents Brand. For a good design , we suggest colors to be minimal with 60- 30 - 10 ratio. usually colors are primary(used as main brand color), secondary(used as supplement color), accent(used as links,hovering etc..,).
+        colors can be represented as name, hexcode(eg:#c358c0), rgb(125,221,54) combines colors as red,green, blue from 0 to 255 , rgba(125,225,54,0.4) where a is alpha ranging from 0.0 to 1.0 (transparency),  hsl(hue,saturation,lightness) -- hue is 0 to 359deg, saturation is darkness percentage, lightness is light percentage
+
+Fonts:  Fonts are used to represent the text in different ways. it also represents brand.  There are 5 different types of fonts exists
+    i. serif : These fonts have stroke at the corners of letters. 
+               eg: Times new roman
+    ii. sans-serif : These fonts have no stroke at the letter corners
+               eg: Arial
+    iii. monospace : These fonts have exact height and width with 
+      equal letter gaps
+               eg: courier new
+    iv. cursive : These fonts looks like hand written
+               eg: dancing script
+    v. fantasy: These fonts are created for special effects like movie  
+       titles etc..,
+               eg: jokerman
+   How to include fonts in CSS?
+    i. Directly you can assign basic font families using 'font-family' property
+    ii. we can use 'google fonts' --> select a font -->get font--> get embed code --> @import --> copu import url and font family into CSS
+   iii. we can also use sites like 'dafont' --> select a font --> download --> extract --> keep in same folder --> In CSS
+       @font-face{
+              name: fontname;
+               src:url('font path');
+         }
+      other properties:
+         font-size: size of the font
+         font-weight: 100-900/bold/bolder
+         font-style : normal/italic/oblique
+         
+    Text Properties: we can make the text into different styles using
+       text-align: start/left/right/end/center/justify
+       text-decoration: width style color position;
+                width: width of decoration eg: 2px etc..,
+                 style : solid/dotted/dashed/wavy/double
+                 color: color of decoration
+                 position: underline/overline/line-through
+
+     background Properties: we can set background of any element using
+       background-color: color of background we need
+       background-image: url('image path');
+        background-repeat: repeat/no-repeat/repeat-x/repeat-y
+        background-position: left/start/end/right/center;
+        background-size: auto/cover/contain;
+        
+        we can even try gradients like
+          background-image: linear-gradient(options , color1,color2) 
+             options can be to left/to right/to bottom/to top/degree
+          background-image: radial-gradient(color1,color2)  -- circular way
+
+       
+        
+      
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+  

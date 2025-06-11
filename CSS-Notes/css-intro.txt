@@ -1,0 +1,40 @@
+Cascading Style Sheets(CSS): CSS is used to design , to style the web pages. Modern CSS brought lot of ways to make beautiful responsive web layouts. 
+To make a good design, things to consider are
+   i. colors
+   ii. fonts
+   iii. layouts
+   iv. responsiveness
+   v. UI & UX principles
+
+How to Link CSS to HTML ?
+   There are 3 ways to include css styles  to HTML elements. They are:
+   i. inline styling: style can be applied to HTML elements using 'style' as a attribute
+
+   ii. Internal CSS : properties can be applied to HTML elements using 'style' as a element
+
+    <style>
+        p /* selector */
+        {
+            background-color: blue;
+            color: white;
+        }
+    </style>
+
+    iii. External CSS: Combining Internal CSS with HTML will become complex when lines of code. we can use complete styles as a External file with extension .css and link it with HTML using 'link' tag
+
+    <link rel="stylesheet" href="css file path" />
+
+
+    Basic Selectors:
+       we can select elements using tagname, classname or id
+       tagname{
+
+       }
+       .classname{
+
+       }
+       #id
+       {
+
+       }
+       always id is powerful. preference is !important>#id>.classname>tagname

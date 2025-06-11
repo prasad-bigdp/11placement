@@ -1,0 +1,42 @@
+Introduction
+heading, p, a,img
+lists
+tables
+block ,inline
+self closing, formatting,
+symbols,icons
+forms -- inputs, validation
+media
+HTML5
+
+track---
+wbr
+
+
+CSS
+-------
+Introduction,basic selectors
+fonts, colors,text,background
+boc model,units
+display,flex
+grid
+float,position
+advanced selectors
+transitions and animations
+Media Queries
+advanced css
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

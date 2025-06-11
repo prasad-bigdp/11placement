@@ -1,0 +1,102 @@
+Forms : HTML forms are used to collect users input and send it to server for processing.
+eg: signup form, login form, application form , feedback form, contact form etc..,
+
+Basic Form Structure: 
+   form: form element is the container element of the whole form
+   input: input is a self closing tag which allows users to enter data. HTML Inputs have different attributes such as
+     --> type: it defines the type of content the input takes
+     --> placeholder :  it is the dummytext that holds the place and is used to make user understand what data needs to be entered
+     --> id : it is used to identify the input element uniquely. if forms connection with label
+     --> value : it is used to keep certain predefined value to inputs. used in case of hidden,radio,checkbox inputs
+     --> name: it is used to send the data to server with a name
+   label:  label is used to make the user understand what content need to be enetered. it's for attribute can connect to input's Id.
+   button: button is used to make clickable actions such as submitting data
+     button with type 'submit'  --> used to submit the form
+     button with type 'reset'   --> used to reset the form
+
+
+Different Types of Inputs: 
+   text -- used for textual inputs like username
+   email -- used for email addresses
+   password -- used for passwords or secret informations such as keys/OTPS
+   number -- used for numerical data such as phone number , age
+   date -- used for selecting a date like DOB
+   time -- used for selecting time 
+   datetime-local  -- used for selecting date& time together
+   month -- used for select specific month
+   week -- used for selecting specific week
+   file -- used for uploaing a file ('accept' attribute allows us to accept a specific format file)
+   color -- used to selecting a color
+   hidden -- used to send data to server without user's intervention when form submitted
+   range -- range is used to select a specific range using range bar
+   radio -- used to select only one value among choices
+      always radio inputs should have name and value. All radio buttons of similar purpose should have same name attribute. label should be connected to inputs Id
+   checkbox --  used to select multiple values among the choices
+      always checkbox inputs should have name and value. All checkbox buttons of similar purpose should have same name attribute. label should be connected to inputs Id
+   select  -- used to select one or many options among the choices
+      Each Option will have 'option' tag with a value
+      To select multiple options we can use multiple attribute for select
+
+
+Form Validation:  
+    We can validate the form using following attributes such as
+    i. Required: it is used to make the input element mandatory to submit the data
+    ii.  minlength/maxlength : it is used to restrict or range the minimum or maximum number of characters in textual inputs
+    iii. min/max : it is used to keep a range for numerical values
+    iv. readonly : it is used to make the form /input data only readable. user cannot overwrite it
+    v. disabled : it is used to make the inputs disabled and its data will not be submitted4
+    vi. pattern : it is used to verify whether the input is satisfying the pattern or not
+    Patterns are created using regular expressions.
+    
+
+
+Day2:
+===========
+   Form Attributes:
+        Form element will have 2 attributes such as
+      i. action: it defines the path of file to which form is submitted
+      ii. method: it defines how the data should be submitted to server
+          GET: By default , method value is "GET". it makes input data passed through URL (data will be visible in URL)
+          POST : it makes the input data passed through BODY. (data will not be visible in URL)
+          POST can be used in login, signup, otp or any info which needs to secret.GET can used when data needs to be public like  search
+
+   textarea: textarea is used to take large set of data. its width always fixed to certain columns
+   we use textarea whenever we need to enter large set of data
+   we can even specify columns and rows of data needed using cols, rows attributes
+
+   fieldset : fieldset is used to wrap the whole form with a border.
+   legend: legend works like a gate to the fieldset
+
+   optgroup : optgroup is used to combine options as a group. it uses 'label' attribute to define the options
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+  
+

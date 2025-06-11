@@ -1,0 +1,19 @@
+Box-Model: In CSS , Every element in a web page is treated as  a Box
+  A Box contains
+   Border: width style color;
+   Border-radius : size of corner radius
+   padding : gap between content and the border
+   margin: gap outside the border
+  
+Usually, padding increases height and width of element, To stop these behaviour we can use 
+      box-sizing:border-box;
+
+Units:
+   units are used to measure the properties
+   px - pixel - it is the smallest measure of screen resolution
+   % -- it is x percentage of parent properties
+   vh -- viewport height -- represents screen height
+   vw -- viewport width -- represents screen width
+   
+
+
