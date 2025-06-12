@@ -1,0 +1,23 @@
+Grid:  Grid is used to arrange the items two directions (rows and columns ). we need to define rows with specific width so that child items will arrange automatically
+Parent Properties:
+  display:grid --> Arranges child items inside the grid into single columns
+  grid-template-columns  --> used to divide child items into multiple columns with different width of columns
+  grid-template-columns: width1 width2 .....
+  width can be represented by px , %, vh,vw , em or fr
+  "3fr 2fr" divides the total parent into 5 parts and two columns, first column takes 3 parts and 2nd columns takes 2 parts
+  we can also use "repeat(n,width)" which repeats width n times
+  grid-template-rows --> used to divide child items into multiple rows of specific height
+  grid-template-areas --> it is shortcut property
+        grid-template-areas: 
+        grid-template-rows/grid-template-columns
+  justify-content: moves the items along rows
+  align-items: moves the items along column
+
+  child Properties: grid items or child items can be arranged using grid lines(row lines and column lines)
+  grid-column-start: defines starting column line
+  grid-column-end: defines ending column line
+  grid-row-start: defines starting row line
+  grid-row-end: defines ending row line
+  grid-column: grid-column-start/grid-column-end
+  grid-row: grid-row-start/grid-row-end
+  order:  by default all elements order is zero. used for order of arrangement
