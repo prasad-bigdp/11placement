@@ -1,0 +1,75 @@
+.box+p{
+    color: red;
+}
+/* .para::first-letter
+{
+    color: green;
+    font-size: 48px;
+} */
+/* .para::first-line
+{
+    color: green;
+    font-size: 48px;
+} */
+ /* .para::selection{
+    background-color: mistyrose;
+ } */
+  .para::before{
+    content:"\201c";
+    font-size:48px
+  }
+  .para::after{
+    content:"\201d";
+    font-size:48px
+  }
+a[href="https://www.google.com"]
+{
+    color: red;
+}
+.box{
+    height: 50px;
+    width: 100px;
+    background-color: green;
+}
+.box:hover{
+    background-color: red;
+}
+a:link{
+    color: yellow;
+}
+a:active{
+    color: red;
+}
+a:visited{
+    color: green;
+}
+#inp:focus{
+    box-shadow: 5px 10px 20px blue;
+}
+
+.parent{
+    height: 50vh;
+    width: 50vw;
+    border: 2px solid red;
+}
+.child{
+    height: 50px;
+    width: 50px;
+    background-color: gold;
+    margin: 5px;
+}
+.child:nth-last-child(4){
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+

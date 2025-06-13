@@ -1,0 +1,33 @@
+Advanced Selectors: In CSS, we can select an element using multiple ways. basic Selectors are class name, id name and tagname.
+Immediate Child Selector: 
+      element1>element2
+      it selects elements2 which is directly child of element1
+Descendant Selector:
+      element1 element2
+      it selects element2 which is Descendant of element1
+Immediate sibling Selector:
+      element1+element2
+      it selects element2 which comes right after element1
+property Selector:
+      element2[attrribute="value"]
+      it selects element2 which is having specific attribute and value
+
+Pseudo classes: These selectors are used to select specific part of the element. These slectors uses ::
+ i. ::first-letter: it is used to select the first letter of text
+ ii. ::first-line: it is used to select the first line of text
+ iii. ::selection: it is used to select the text when user tried to select
+ iv. ::before: it is used to add some content before an element
+ v. ::after: it is used to add some content after an element
+
+ Pseudo Elements: These selectors are used to select elements based on state or position of element.These elements uses :
+ i. :hover -- it selects element when mouse over the element
+ ii. :link  -- it selects all anchor tags which are links
+     :active -- it selects anchor tag when user clicked
+     :visited -- it selects anchor tag when it is already visited
+     :focus  -- it selects input elements when they are focused
+ iii. :first-child -- it selects elements which are first child of parent
+      :last-child -- it selects elements which are last child of parent
+      :nth-child(n) -- it selects elements which are specific numbered
+      :nth-last-child(n) -- it selects elements which are in specific position from last
+
+  we can even select elements using :required, :optional,:disabled,:enabled etc..,
