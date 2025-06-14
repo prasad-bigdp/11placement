@@ -1,0 +1,82 @@
+body{
+    
+    height: 100vh;
+    /* animation: background-change 4s ease infinite; */
+}
+#box{
+    height: 100px;
+    width: 100px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    /* animation: jump 2s ease infinite, slideIn 3s ease;
+    animation-direction: alternate; */
+}
+#box{
+   animation: fallHeart 1s ease alternate infinite;
+}
+#box:hover{
+   transform:scale(1.2);
+}
+.img2{
+    animation-delay: 0.1s !important;
+}
+.img3{
+    animation-delay: 0.2s !important;
+}
+.img4{
+    animation-delay: 0.3s !important;
+}
+.img5{
+    animation-delay: 0.4s !important;
+}
+.img6{
+    animation-delay: 0.5s !important;
+}
+.img7{
+    animation-delay: 0.6s !important;
+}
+.img8{
+    animation-delay: 0.7s !important;
+}
+.img9{
+    animation-delay: 0.8s !important;
+}
+@keyframes slideIn {
+    from{
+       transform: translateX(-100vw);
+    }
+    to{
+        transform: translateX(0px) rotate(720deg);
+    }
+}
+@keyframes jump {
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(-100px);
+    }
+}
+@keyframes fallHeart {
+    100%{
+        transform: translateY(400px);
+    }
+}
+/* @keyframes background-change {
+    0%{
+        background-color: green;
+    }
+    25%{
+        background-color: yellow;
+    }
+    50%{
+        background-color: red;
+    }
+   75%{
+        background-color: blue;
+    }
+    100%{
+        background-color: orange;
+    }
+} */

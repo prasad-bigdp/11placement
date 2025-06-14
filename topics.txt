@@ -17,12 +17,12 @@ CSS
 -------
 Introduction,basic selectors
 fonts, colors,text,background
-boc model,units
+box model,units
 display,flex
 grid
-float,position
 advanced selectors
 transitions and animations
+float,position
 Media Queries
 advanced css
 

@@ -1,0 +1,28 @@
+Transition: Transition refers to change from one state to another state
+Transitions observe the change with three properties
+  Transition-property: lists properties to observe change | all
+  Transition-duration: defines the time the transition takes(s or ms)
+  Transition-timing-function: defines the way transition changes like
+     ease-in  ---- slow to fast
+     east-out ---- fast to slow
+     ease-in-out --- slow--fast--slow
+     ease -- exponential growth
+     linear -- constant growth
+
+eg:   #box{
+    height:100px;width:100px;background-color:blue;
+    transition:all 2s ease;
+}
+#box:hover{
+    transform: translateX(200px)
+}
+
+
+Animations: Animations are nothing but multiple transitions. A transition applies on two states but animations applies on multiple states(called frames)
+   i. First we need to create and define Keyframes
+   ii. Apply the animation to elements
+
+
+
+
+
