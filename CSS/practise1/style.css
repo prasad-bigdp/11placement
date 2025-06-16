@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all 1s ease;
+}
+body{
+    height: 100vh;
+}
+header{
+    margin: 20px;
+    box-shadow: 3px 5px 20px rgb(241, 184, 80);
+    padding: 20px 0px;
+    border-radius: 20px;
+}
+header>h1,.heading
+{
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    font-size: 48px;
+}
+.languages,.genres{
+   display: flex;
+   margin:50px auto;
+   max-width: 1280px;
+   justify-content: space-between;
+   align-items: center;
+}
+.language{
+    font-size: 24px;
+    box-shadow: 2px 3px 20px gray;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+}
+.language:hover{
+    background: linear-gradient(145deg,rgb(162, 162, 247),rgb(244, 213, 157));
+    color: white;
+}
+.genres{
+    gap: 10px;
+}
+.genre{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background: rgb(244, 195, 105);
+  padding: 20px;
+  border-radius: 50% 50% 0px 0px;
+  
+}
+.genre>img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 50%;
+}
+.genre:hover{
+    transform: translateY(-10px);
+}
+.movies{
+    margin: auto;
+    max-width: 1280px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.movie>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.movie{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+    box-shadow: 2px 3px 30px gray;
+    border-radius: 20px;
+}
+.movie>button{
+    padding: 10px 20px;
+    font-size: 24px;
+    background-color: black;
+    color: white;
+    border-radius: 20px 0px 20px 0px;
+    width: max-content;
+    align-self: end;
+}
+.movie:hover{
+    box-shadow: 3px 5px 20px rgb(241, 184, 80);
+    transform: translateY(-10px);
+}
