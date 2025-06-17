@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    color: white;
+    padding: 20px 0px;
+    text-align: center;
+    font-size: 48px;
+}
+.images{
+    display: flex;
+    margin: auto;
+    max-width: 1280px;
+    justify-content: space-evenly;
+}
+img{
+   height: 200px;
+}
+@media (min-width:571px) and (max-width:1024px) {
+    
+}
+@media (max-width:570px){
+
+   header{
+    font-size: 24px;
+    background-color: blue;
+   }
+   .images{
+    flex-direction: column;
+   }
+   img{
+    height: 100px;
+    width: 200px;
+   }
+}
+
+
+
+

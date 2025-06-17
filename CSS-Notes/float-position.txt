@@ -1,0 +1,36 @@
+Float: float is used to keep an element floating left or right side of the web page. it removes the element from actual flow, so next element will come around the floating element
+   float:left/right/none
+
+If any element wants to remove floating element, it can used
+   clear:left/right/both/none
+
+Position : Position is used to keep an element whereever in want in different ways. There are 5 positions available in CSS
+   i. static
+   ii. relative
+   iii. absolute
+   iv. fixed
+   v. sticky
+
+i. static: By default , all elements have position 'static'. At this position, top,left,right or bottom will not have any impact
+
+ii. relative : It will move the element from current position.it apllies top,left,right,bottom as gaps
+
+    position:relative
+
+iii. absolute: it will move the element from body. it applies top,left,right,bottom as gaps from body. absolute elements overlasps each other
+
+   position : absolute
+
+iv. fixed : it will fix the element from body. it overlaps with other elements but it will not scroll unlike absolute
+
+  position: fixed
+
+v. sticky : it will move the element until its position met and becomes fixed until the parent is over. it is the combination of relative and fixed
+
+  position: sticky
+
+
+
+
+
+

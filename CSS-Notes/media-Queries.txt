@@ -1,0 +1,6 @@
+Media Queries:
+     Media Queries are used to make the website responsive. A responsive website should be flexible in all devices as per design
+
+    @media (min-width:width) and (max-width:width){
+
+    }

@@ -1,0 +1,46 @@
+/* #img1{
+    float: left;
+}
+#img2{
+    float: right;
+}
+p{
+   clear: both;
+} */
+body{
+    height: 100vh;
+}
+.box{
+    position: fixed;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+
+    bottom: 0%;
+    right: 0;
+}
+section{
+    height: 100vh;
+    background-color: green;
+    margin: 20px;
+}
+#img1{
+    position: relative;
+    top: 90%;
+}
+.sticky{
+    position: sticky;
+    top: 0;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+
+
+
+
+
+
+

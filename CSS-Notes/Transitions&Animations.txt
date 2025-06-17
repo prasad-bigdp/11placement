@@ -22,7 +22,53 @@ Animations: Animations are nothing but multiple transitions. A transition applie
    i. First we need to create and define Keyframes
    ii. Apply the animation to elements
 
+Keyframes Syntax:
+@keyframes animationName {
+    0% { /* styles */ }
+    50% { /* styles */ }
+    100% { /* styles */ }
+}
 
+Animation Properties:
+1. animation-name: Name of the @keyframes animation
+2. animation-duration: How long the animation should take (in s or ms)
+3. animation-timing-function: How the animation progresses (ease, linear, etc.)
+4. animation-delay: Delay before animation starts
+5. animation-iteration-count: Number of times to run (number or infinite)
+6. animation-direction: Direction of animation
+   - normal: forwards
+   - reverse: backwards
+   - alternate: forwards then backwards
+   - alternate-reverse: backwards then forwards
+7. animation-fill-mode: What styles apply before/after animation
+   - none: no styles applied
+   - forwards: retain last keyframe
+   - backwards: apply first keyframe before animation
+   - both: both forwards and backwards behavior
+8. animation-play-state: running | paused
 
+Example:
+.animated-box {
+    width: 100px;
+    height: 100px;
+    background: blue;
+    animation: slide 2s ease infinite;
+}
 
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(200px);
+        background: red;
+    }
+    100% {
+        transform: translateX(0);
+        background: blue;
+    }
+}
 
+Shorthand Animation:
+animation: name duration timing-function delay iteration-count direction fill-mode;
+Example: animation: slide 3s ease-in-out 1s infinite alternate forwards;
